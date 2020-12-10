@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #000000;
+    color: white;
+}
+
+section {
+    padding: 20px;
+    border-top: 5px solid #1c1c1c;
+    border-bottom: 5px solid #1c1c1c;
+}
+
+/*Primera sección*/
+#primero {
+    height: 75vh;
+    padding: 1.5em;
+    background: url(../img/bg-hero2.jpg) no-repeat center;
+    background-size: cover;
+}
+
+/*Modificar el logo de netflix*/
+#primero img.img-fluid {
+    width: 50%;
+}
+@media (min-width: 768px) {
+    #primero img.img-fluid {
+        max-width: 35%;
+    }
+}
+@media (min-width: 992px) {
+    #primero img.img-fluid {
+        max-width: 35%;
+    }
+}
+@media (min-width: 1200px) {
+    #primero img.img-fluid {
+        max-width: 25%;
+    }
+}
+/*FINAL Modificar el logo de netflix*/
+
+#primero p {
+    margin: 15px 0;
+}
+@media (min-width: 768px) {
+    #primero p {
+        font-size: 50px;
+    }
+    #primero p.subtitulo {
+        font-size: 26px;
+        text-align: center;
+    }
+    #primero p.subtitulo-2 {
+        font-size: 18px;
+        margin-top: -10px;
+    }
+}
+.btn-danger {
+    background-color: #e50914;
+    padding: 4px 10px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+div.inicio {
+    margin-top: 50px;
+}
+@media (min-width: 992px) {
+    .btn-danger {
+        padding: 5px 20px;
+        font-size: 1em;
+    }
+    div.inicio {
+        width: 70%;
+        margin-top: 80px;
+    }
+}
+
+
+/*CSS DE FLOATING LABELS*/
+.form-signin {
+    width: 100%;
+    max-width: 420px;
+    padding: 15px;
+    margin: auto;
+}
+.form-label-group {
+    position: relative;
+    margin-bottom: 1rem;
+}
+.form-label-group > input,
+.form-label-group > label {
+    height: 3.125rem;
+    padding: .75rem;
+}
+.form-label-group > label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+    line-height: 1.5;
+    color: #495057;
+    pointer-events: none;
+    cursor: text;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: all .1s ease-in-out;
+}
+.form-label-group input:not(:placeholder-shown) {
+    padding-top: 1.25rem;
+    padding-bottom: .25rem;
+}
+.form-label-group input:not(:placeholder-shown) ~ label {
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    font-size: 12px;
+    color: #777;
+}
+/*FINAL CSS DE FLOATING LABELS*/
+.btn-empezar {
+    background-color: #e50914;
+    color: white;
+    padding: 12px;
+}
+@media (min-width: 992px) {
+    .btn-empezar {
+        border-radius: 0;
+    }
+    .form-control {
+        border-radius: 0;
+        width: 300px;
+    }
+    .form-signin {
+        padding: 0;
+    }
+}
+
+/*FINAL Primera sección*/
+
+
+/*SECCIONES de DOBLES COLUMNAS*/
+.dobles-columnas p {
+    margin-bottom: 1em;
+    line-height: 1.5em;
+}
+@media (min-width: 992px) {
+    .dobles-columnas p:first-of-type {
+        font-size: 50px;
+    }
+    .dobles-columnas p:last-of-type {
+        font-size: 26px;
+    }
+}
+/*FINAL SECCIONES de DOBLES COLUMNAS*/
+
+
+/*ACCORDION*/
+div.accordion {
+    width: 100%;
+}
+@media (min-width: 768px) {
+    div.accordion {
+        width: 60%;
+    }
+}
+.accordion div, .accordion button {
+    font-size: 18px;
+    color: white
+}
+.accordion div {
+    background-color: #303030;
+}
+.accordion button:hover {
+    color: white;
+    text-decoration: none;
+}
+.accordion>.card>.card-header {
+    margin-bottom: 10px;
+}
+div.card {
+    background-color: #000000;
+}
+.card-header {
+    padding: 5px;
+}
+.btn:focus, .btn.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #303030;
+}
+@media (min-width: 992px) {
+    .preguntas div.card-body, .preguntas button.btn-block {
+        font-size: 26px;
+    }
+}
+svg:hover {
+    transform: rotate(-45deg);
+    transition-property: svg;
+    transition-duration: 0.5s;
+}
+/*FINAL ACCORDION*/
+
+
+/*Footer*/
+footer {
+    padding: 50px 20px;
+    width: 85%;
+}
+footer p {
+    color: #757575;
+}
+footer a {
+    color: #757575;
+}
+footer a:hover {
+    color: #757575;
+    text-decoration: underline;
+}
+ul li {
+    list-style-type: none;
+    font-size: 13px;
+    line-height: 2em;
+}
+li.col-lg-3.col-md-4.col-6 {
+    padding: 0;
+}
