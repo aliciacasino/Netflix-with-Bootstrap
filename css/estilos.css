@@ -14,7 +14,7 @@ section {
 
 /*Primera sección*/
 #primero {
-    padding: 5em 1.5em;
+    padding: 1.5em 1.5em 5em 1.5em;
     background: url(../img/bg-hero2.jpg) no-repeat center;
     background-size: cover;
 }
