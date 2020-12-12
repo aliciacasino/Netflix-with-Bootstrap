@@ -14,16 +14,10 @@ section {
 
 /*Primera sección*/
 #primero {
-    padding: 1.5em;
+    padding: 5em 1.5em;
     background: url(../img/bg-hero2.jpg) no-repeat center;
     background-size: cover;
 }
-@media (min-width: 768px) {
-    #primero {
-        height: 75vh;
-    }
-}
-
 /*Modificar el logo de netflix*/
 #primero img.img-fluid {
     width: 50%;
